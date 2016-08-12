@@ -1,5 +1,6 @@
-class Ingredient < ApplicationRecord
-  has_many :cocktails, through: :doses
+class Ingredient < ActiveRecord::Base
   has_many :doses
-  validates :name, presence: true, uniqueness: true
+  has_many :cocktails, through: :doses
+
+  validates :name, uniqueness: true, presence: true
 end
