@@ -31,6 +31,7 @@ gem 'figaro'
 gem "cloudinary"
 gem "attachinary"
 gem "jquery-fileupload-rails"
+gem "responders"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
