@@ -13,7 +13,7 @@
             <i class="fa fa-trash"></i>
             <% end %></p>
             <% end %>
-            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            <a  style="cursor:pointer" type="button" class="btn-treehouse" data-toggle="modal" data-target="#myModal">
               Add doses
             </a>
           </div>
@@ -33,7 +33,7 @@
           <%= simple_form_for([ @cocktail, @dose ]) do |f| %>
           <%= f.input :ingredient_id, prompt: "Ingredient", as: :select, collection: Ingredient.all %>
           <%= f.input :description, prompt: 'Procedure' %>
-          <%= f.button :submit, class: "btn btn-success" %>
+          <%= f.button :submit, class: "btn btn-primary" %>
           <% end %>
         </div>
       </div>

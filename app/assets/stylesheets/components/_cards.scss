@@ -9,7 +9,7 @@
     margin-top: 60px;
 }
 .box-icon {
-    background-color: #673AB7;
+    background-color: #F86060;
     border-radius: 50%;
     display: table;
     height: 100px;
@@ -35,14 +35,13 @@
     text-align: justify;
 }
 .info > a {
-    background-color: #673AB7;
     border-radius: 20px;
     // box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     color: #fff;
     transition: all 0.5s ease 0s;
 }
 .info > a:hover {
-    background-color: #512DA8;
+    background-color: #F87B72;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.16), 0 5px 10px 0 rgba(0, 0, 0, 0.12);
     color: #fff;
     transition: all 0.5s ease 0s;
