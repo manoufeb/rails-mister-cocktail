@@ -1,6 +1,7 @@
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
 .box {
+    background-color:#F9F8FE;
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     padding: 25px 25px;
@@ -9,7 +10,7 @@
     margin-top: 60px;
 }
 .box-icon {
-    background-color: #F86060;
+    // background-color: #F86060;
     border-radius: 50%;
     display: table;
     height: 100px;
@@ -30,7 +31,7 @@
 }
 .info > p {
     color: #717171;
-    font-size: 16px;
+    font-size: 24px;
     padding-top: 10px;
     text-align: justify;
 }
